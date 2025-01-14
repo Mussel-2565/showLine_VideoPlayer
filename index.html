@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
 </head>
-<body>
-    <h1>Video Player</h1>
-    <video controls id="videoPlayer">
+<body style="margin: 0; background-color: black;">
+
+    <video controls id="videoPlayer" style="width: 100%; height: 100%; display: block;">
         <source src="" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -24,5 +24,6 @@
             document.getElementById('videoPlayer').src = 'default.mp4'; // 預設影片
         }
     </script>
+
 </body>
 </html>
